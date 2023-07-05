@@ -1,0 +1,17 @@
+assemble:
+    - from: 'build'
+      include: '*.js'
+      into: 'static'
+    - from: 'build'
+      include: '*.js.map'
+      into: 'static'
+
+counter-custom-element:
+    htmlElementName: 'counter-custom-element'
+    friendlyURLMapping: 'counter-custom-element'
+    portletCategoryName: category.client-extensions
+    instanceable: true
+    name: 'Counter Custom Element'
+    type: 'customElement'
+    urls: ['index.js']
+    useESM: true

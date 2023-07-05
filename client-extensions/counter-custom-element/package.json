@@ -1,0 +1,16 @@
+{
+  "name": "counter-custom-element",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --external:react --external:react-dom --minify --format=esm --target=firefox100 --sourcemap --outfile=build/index.js"
+  },
+  "devDependencies": {
+    "@types/react": "~16.9.0",
+    "@types/react-dom": "~16.9.0"
+  },
+  "dependencies": {
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "liferay-client-extension-experiment",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client-extensions/counter-custom-element"
+  ],
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.11",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6"
+  }
+}

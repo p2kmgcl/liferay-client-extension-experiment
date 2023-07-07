@@ -1,0 +1,6 @@
+counter-fragment:
+    name: 'Counter Fragment'
+    type: 'fragment'
+    css: build/index.css
+    html: build/index.html
+    js: build/index.js

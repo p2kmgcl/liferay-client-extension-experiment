@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "client-extensions/counter-custom-element"
+    "client-extensions/counter-custom-element",
+    "client-extensions/counter-fragment"
   ],
   "scripts": {
     "format": "prettier --write ."

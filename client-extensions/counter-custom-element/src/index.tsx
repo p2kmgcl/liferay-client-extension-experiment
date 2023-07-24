@@ -7,7 +7,6 @@ class CounterCustomElement extends HTMLElement {
     render(
       <React.StrictMode>
         <Counter />
-        <Counter />
       </React.StrictMode>,
       this,
     );

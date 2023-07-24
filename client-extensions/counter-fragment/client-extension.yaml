@@ -1,6 +1,17 @@
+assemble:
+    - from: 'build'
+      include: 'index.js'
+      into: 'static'
+    - from: 'build'
+      include: 'index.css'
+      into: 'static'
+    - from: 'build'
+      include: 'index.html'
+      into: 'static'
+
 counter-fragment:
     name: 'Counter Fragment'
     type: 'fragment'
-    css: build/index.css
-    html: build/index.html
-    js: build/index.js
+    css: index.css
+    html: index.html
+    js: index.js

@@ -1,8 +1,12 @@
 {
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
   "name": "counter-fragment",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p build && cp src/* build"
-  }
+    "build": "mkdir -p build && cp src/* build",
+    "format": "prettier --write ."
+  },
+  "version": "1.0.0"
 }
